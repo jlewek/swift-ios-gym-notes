@@ -16,7 +16,7 @@
 		2796AF411C7A5171004BA18A /* GNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796AF401C7A5171004BA18A /* GNotesTests.swift */; };
 		2796AF4C1C7A5171004BA18A /* GNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796AF4B1C7A5171004BA18A /* GNotesUITests.swift */; };
 		2796AF5A1C7A51F0004BA18A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2796AF591C7A51F0004BA18A /* README.md */; };
-		2796AF5C1C7A6131004BA18A /* aboutControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796AF5B1C7A6131004BA18A /* aboutControllerViewController.swift */; };
+		2796AF9D1C7A80BF004BA18A /* simplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2796AF9C1C7A80BF004BA18A /* simplePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		2796AF4B1C7A5171004BA18A /* GNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNotesUITests.swift; sourceTree = "<group>"; };
 		2796AF4D1C7A5171004BA18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2796AF591C7A51F0004BA18A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2796AF5B1C7A6131004BA18A /* aboutControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutControllerViewController.swift; sourceTree = "<group>"; };
+		2796AF9C1C7A80BF004BA18A /* simplePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simplePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				2796AF341C7A5170004BA18A /* LaunchScreen.storyboard */,
 				2796AF371C7A5170004BA18A /* Info.plist */,
 				2796AF2F1C7A5170004BA18A /* GNotes.xcdatamodeld */,
-				2796AF5B1C7A6131004BA18A /* aboutControllerViewController.swift */,
+				2796AF9C1C7A80BF004BA18A /* simplePageViewController.swift */,
 			);
 			path = GNotes;
 			sourceTree = "<group>";
@@ -270,9 +270,9 @@
 			files = (
 				2796AF311C7A5170004BA18A /* GNotes.xcdatamodeld in Sources */,
 				2796AF2B1C7A5170004BA18A /* ViewController.swift in Sources */,
-				2796AF5C1C7A6131004BA18A /* aboutControllerViewController.swift in Sources */,
 				2796AF5A1C7A51F0004BA18A /* README.md in Sources */,
 				2796AF291C7A5170004BA18A /* AppDelegate.swift in Sources */,
+				2796AF9D1C7A80BF004BA18A /* simplePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +497,7 @@
 				2796AF521C7A5171004BA18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2796AF531C7A5171004BA18A /* Build configuration list for PBXNativeTarget "GNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				2796AF551C7A5171004BA18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2796AF561C7A5171004BA18A /* Build configuration list for PBXNativeTarget "GNotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +515,7 @@
 				2796AF581C7A5171004BA18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
